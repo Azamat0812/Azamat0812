@@ -1,0 +1,86 @@
+body h1 p ul p
+{
+   margin: 0;
+   padding: 0;
+}
+#header
+{
+    background-color: gray;
+    border-bottom: 4px solid black;
+}
+#header h1
+{
+    color: #000;
+    font-family: sans-serif;
+    padding: 15px;
+    display: inline-block;
+}
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+#header .logo
+{
+    color: gold;
+    text-decoration: underline;
+}
+.navbar
+{
+    float: right;
+}
+.navbar li
+{
+ display: inline;
+}
+.navbar li a
+{
+ text-decoration: none;
+ color: #fff;
+ font-family: sans-serif;
+ padding: 15px 15px;
+ display: inline-block;
+}
+.navbar li a:hover
+{
+    color: green;
+}
+#banner
+{
+    height: 60vh;
+    background-image: url(IMG/image.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+}
+#banner h1{
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 120px;
+    word-spacing: 8px;
+}
+#banner p{
+    font-size: 1em;
+}
+#courses
+{
+    padding: 36px 0;
+}
+.div
+{
+    width: 33,3%;
+    float: left;
+    text-align: center;
+    font-family: "Josefin Sans" sans-serif;
+}
+.div img
+{
+    max-width: 100%;
+    width: 320%;
+}
+.clr
+{
+    clear: both;
+}
